@@ -49,31 +49,31 @@ while (playGame) {
     if (items[userInput] !== items[computerInput]) {
         // rock paper
         if (items[userInput] === 'Rock' && items[computerInput] === 'Paper') {
-            alert(`Computer Select:${items[computerInput]}  User Select: ${items[userInput]}, \n Result :📰 Paper wins!`)
+            alert(`Computer Select:${items[computerInput]}  User Select: ${items[userInput]}, \n Result :💻 computer wins!`)
 
         }
         if (items[userInput] === 'Paper' && items[computerInput] === 'Rock') {
-            alert(`Computer Select: ${items[computerInput]}  User Select: ${items[userInput]}, \n Result :  🎛️Rock wins!`)
+            alert(`Computer Select: ${items[computerInput]}  User Select: ${items[userInput]}, \n Result :  👨‍🚒user wins!`)
 
         }
 
         // rock scissor
         if (items[userInput] === 'Rock' && items[computerInput] === 'Scissor') {
-            alert(`Computer Select: ${items[computerInput]}  User Select: ${items[userInput]}, \n Result :  🎛️Rock wins!`)
+            alert(`Computer Select: ${items[computerInput]}  User Select: ${items[userInput]}, \n Result :  👨‍🚒user wins!`)
 
         }
         if (items[userInput] === 'scissor' && items[computerInput] === 'rock') {
-            alert(`Computer Select: ${items[computerInput]}  User Select: ${items[userInput]}, \n Result : ✂️Scissor wins!`)
+            alert(`Computer Select: ${items[computerInput]}  User Select: ${items[userInput]}, \n Result : 💻computer wins!`)
 
         }
 
         // paper scissor
         if (items[userInput] === 'Paper' && items[computerInput] === 'Scissor') {
-            alert(`Computer Select: ${items[computerInput]}  User Select: ${items[userInput]}, \n Result : ✂️Scissor wins !`)
+            alert(`Computer Select: ${items[computerInput]}  User Select: ${items[userInput]}, \n Result : 👨‍🚒user wins !`)
 
         }
         if (items[userInput] === 'Scissor' && items[computerInput] === 'Paper') {
-            alert(`Computer Select: ${items[computerInput]}  User Select: ${items[userInput]}, \n Result : 📰Paper wins !`)
+            alert(`Computer Select: ${items[computerInput]}  User Select: ${items[userInput]}, \n Result : 💻computer wins !`)
 
         }
     }
